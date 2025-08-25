@@ -1,5 +1,5 @@
 window.addEventListener('scroll', function() {
-  const container = document.querySelector('.background-container');
+  const container = document.querySelector('.hope-ui-dark');
   if (!container) return; // 如果页面上没有这个元素，则退出
 
   const rect = container.getBoundingClientRect();
